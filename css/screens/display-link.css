@@ -1,0 +1,12 @@
+.display-link {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-link i {
+  opacity: 0.2;
+  margin: 0px 5px;
+}

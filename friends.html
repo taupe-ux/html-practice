@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <span class="status-bar__column">
+        No Service
+        <i class="fa-solid fa-wifi fa-lg"></i>
+      </span>
+      <span id="clock" class="status-bar__column"></span>
+      <span class="status-bar__column"
+        >100%
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-lg"></i>
+      </span>
+    </div>
+
+    <header class="state-bar-header">
+      <h1>Friends</h1>
+      <div>
+        <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+        <span><i class="fa-solid fa-music fa-xl"></i></span>
+        <span><i class="fa-solid fa-gear fa-xl"></i></span>
+      </div>
+    </header>
+    <a class="display-link" href="#">
+      <i class="fa-solid fa-circle-info"></i>
+      Friends'Names Display
+      <i class="fa-solid fa-chevron-right fa-sm"></i>
+    </a>
+
+    <main class="friends-main">
+      <div class="profile">
+        <div class="profile-title">
+          <img class="profile-title__img" src="screenshot/kakao-01.jpg" />
+          <h2 class="profile-title__name">Taupe</h2>
+        </div>
+        <!--<div></div>-->
+      </div>
+      <div class="channel">
+        <div class="channel-bar">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-sm"></i>
+        </div>
+        <div class="profile">
+          <div class="profile-title">
+            <img
+              class="profile-title__img profile-friend__img"
+              src="screenshot/kakao-02.jpg"
+            />
+            <h2 class="profile-title__name profile-friends__name">Channel</h2>
+            <!--카톡 채널 개수<h3 class="pass">63</h3>-->
+          </div>
+          <div class="profile-subtitle">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right fa-sm"></i>
+          </div>
+        </div>
+      </div>
+      <!--친구 것도 만들기-->
+      <div class="channel">
+        <div class="channel-bar">
+          <span>Friends</span>
+          <i class="fa-solid fa-chevron-up fa-sm"></i>
+        </div>
+        <div class="profile">
+          <div class="profile-title">
+            <img
+              class="profile-title__img profile-friend__img"
+              src="screenshot/kakao-02.jpg"
+            />
+            <div class="profile-title__name_bar">
+              <h2 class="profile-title__name profile-friends__name">Ahah</h2>
+              <h3 class="pass">subtitle practice</h3>
+            </div>
+          </div>
+          <!--<div class="profile-subtitle">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right fa-sm"></i>
+          </div>-->
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav-icon">
+      <ul class="nav-ul">
+        <li class="nav-ul__icon_row">
+          <a href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-ul__icon_row">
+          <a href="chats.html">
+            <span class="bage number"> 1 </span>
+            <i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-ul__icon_row">
+          <a href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-ul__icon_row">
+          <a href="more.html">
+            <span class="bage point"> </span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/7a357c0d40.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>

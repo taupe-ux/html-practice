@@ -1,0 +1,17 @@
+.nav-icon {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px 60px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-ul__icon_row {
+  position: relative;
+}
