@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KakaoTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <span class="status-bar__column">
+        No Service
+        <i class="fa-solid fa-wifi fa-lg"></i>
+      </span>
+      <span id="clock" class="status-bar__column"></span>
+      <span class="status-bar__column"
+        >100%
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-lg"></i>
+      </span>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+      <h2 class="welcome-header__text">
+        If you have a Kakao Account, <br />log in with your email or phone
+        number
+      </h2>
+    </header>
+    <main class="index-main">
+      <form class="login-form">
+        <input type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Log In" />
+        <input type="submit" value="Sign Up" />
+        <a href="#">Find Kakao Account or Password</a>
+      </form>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/7a357c0d40.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>
