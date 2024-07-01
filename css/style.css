@@ -6,7 +6,7 @@
 @import "components/state-bar-header.css";
 @import "components/friends-profile.css";
 @import "components/nav-icon.css";
-
+@import "components/bage.css";
 /*screens*/
 @import "screens/welcome-header.css";
 @import "screens/log-in-main.css";
@@ -16,27 +16,33 @@
   box-sizing: border-box;
 }
 
-.bage {
-  background-color: tomato;
-  border-radius: 50%;
+.profile-chats__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
 }
 
-.number {
-  position: absolute;
+.profile-title__text {
+  margin-top: 10px;
+  opacity: 0.6;
+}
+
+.profile-subtitle-chats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-subtitle span {
+  margin-bottom: 15px;
+}
+
+.timenumber {
   width: 25px;
   height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  bottom: 15px;
-  left: 20px;
-}
-
-.point {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  bottom: 30px;
-  left: 28px;
+  opacity: 1;
 }

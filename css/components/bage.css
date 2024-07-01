@@ -1,0 +1,24 @@
+.bage {
+  background-color: tomato;
+  border-radius: 50%;
+}
+
+.number {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  bottom: 15px;
+  left: 20px;
+}
+
+.point {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  bottom: 30px;
+  left: 28px;
+}
