@@ -1,0 +1,12 @@
+.find-recommended {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 20px 0px;
+  opacity: 0.4;
+}
+
+.find-recommended__text {
+  text-align: center;
+  margin: 130px 0px;
+  font-size: 20px;
+}

@@ -1,0 +1,19 @@
+.find-main {
+  margin: 0px 60px;
+}
+
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+
+.find-icons__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__column i {
+  margin-bottom: 20px;
+}

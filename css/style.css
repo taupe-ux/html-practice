@@ -11,38 +11,11 @@
 @import "screens/welcome-header.css";
 @import "screens/log-in-main.css";
 @import "screens/display-link.css";
+@import "screens/profile.css";
+@import "screens/find-icons.css";
+@import "screens/find-recommended.css";
+@import "screens/open-chat.css";
 
 * {
   box-sizing: border-box;
-}
-
-.profile-chats__img {
-  width: 80px;
-  height: 80px;
-  border-radius: 30px;
-}
-
-.profile-title__text {
-  margin-top: 10px;
-  opacity: 0.6;
-}
-
-.profile-subtitle-chats {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.profile-subtitle span {
-  margin-bottom: 15px;
-}
-
-.timenumber {
-  width: 25px;
-  height: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  opacity: 1;
 }
