@@ -15,7 +15,43 @@
 @import "screens/find-icons.css";
 @import "screens/find-recommended.css";
 @import "screens/open-chat.css";
+@import "screens/more-profle.css";
 
 * {
   box-sizing: border-box;
+}
+
+.suggetstions {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.suggetstions-title {
+  display: block;
+  margin: 18px 0px;
+  font-size: 18px;
+}
+
+.suggetstions-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggetstions-icons_rows {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 25%;
+}
+.suggetstions-icons_rows i {
+  background-color: var(--yellow);
+  font-size: 40px;
+  padding: 10px 13px;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.suggetstions-icons_rows span {
+  opacity: 0.6;
 }
