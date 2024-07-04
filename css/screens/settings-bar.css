@@ -1,0 +1,19 @@
+.settings-bar-header {
+  display: flex;
+  margin: 0px 30px;
+}
+
+.settings-bar-header__column {
+  width: 33%;
+  font-size: 25px;
+}
+
+.settings-bar-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.settings-bar-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -16,42 +16,47 @@
 @import "screens/find-recommended.css";
 @import "screens/open-chat.css";
 @import "screens/more-profle.css";
+@import "screens/more-suggetstions.css";
+@import "screens/settings-bar.css";
 
 * {
   box-sizing: border-box;
 }
 
-.suggetstions {
-  border-top: 1px solid rgba(0, 0, 0, 0.4);
+.settings-main {
+  margin: 20px 35px;
 }
 
-.suggetstions-title {
-  display: block;
-  margin: 18px 0px;
-  font-size: 18px;
-}
-
-.suggetstions-icons {
+.settings-column {
   display: flex;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
   justify-content: space-between;
 }
 
-.suggetstions-icons_rows {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  width: 25%;
-}
-.suggetstions-icons_rows i {
-  background-color: var(--yellow);
-  font-size: 40px;
-  padding: 10px 13px;
-  color: white;
-  margin-bottom: 10px;
-  border-radius: 10px;
+.settings-column i {
+  margin-right: 10px;
 }
 
-.suggetstions-icons_rows span {
+.settings-column__subtitle {
   opacity: 0.6;
+}
+
+.settings-row .settings-column:first-child {
+  padding-top: 35px;
+}
+
+.settings-row .settings-column:last-child {
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.settings-column__title {
+  display: flex;
+  align-items: center;
+}
+
+.settings-column__title span {
+  margin-right: 10px;
 }

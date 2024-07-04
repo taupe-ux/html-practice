@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <span class="status-bar__column">
+        No Service
+        <i class="fa-solid fa-wifi fa-lg"></i>
+      </span>
+      <span id="clock" class="status-bar__column"></span>
+      <span class="status-bar__column"
+        >100%
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+      </span>
+    </div>
+
+    <header>
+      <div class="settings-bar-header">
+        <span class="settings-bar-header__column"
+          ><i class="fa-solid fa-chevron-left"></i
+        ></span>
+        <span class="settings-bar-header__column">Settings</span>
+        <span class="settings-bar-header__column"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></span>
+      </div>
+    </header>
+
+    <main class="settings-main">
+      <div class="settings-row">
+        <!--settings-column-->
+        <div class="settings-column">
+          <div class="settings-column__title">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings-column__subtitle"></div>
+        </div>
+
+        <!--settings-column-->
+        <div class="settings-column">
+          <div class="settings-column__title">
+            <i class="fa-solid fa-flask"></i>
+            <span>Kakao Lab</span>
+          </div>
+          <div class="settings-column__subtitle"></div>
+        </div>
+        <!---->
+        <!--settings-column-->
+        <div class="settings-column">
+          <div class="settings-column__title">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings-column__subtitle">
+            <span>Latest Version</span>
+          </div>
+        </div>
+        <!--settings-row-->
+      </div>
+      <div class="settings-row">
+        <!--settings-column-->
+        <div class="settings-column">
+          <div class="settings-column__title">
+            <i class="fa-solid fa-lock"></i>
+            <span>Privacy</span>
+          </div>
+          <div class="settings-column__subtitle"></div>
+        </div>
+
+        <!--settings-column-->
+        <div class="settings-column">
+          <div class="settings-column__title">
+            <i class="fa-regular fa-bell"></i>
+            <span>Notifications</span>
+          </div>
+          <div class="settings-column__subtitle"></div>
+        </div>
+        <!---->
+        <!--settings-column-->
+        <div class="settings-column">
+          <div class="settings-column__title">
+            <i class="fa-regular fa-user"></i>
+            <span>Friends</span>
+          </div>
+          <div class="settings-column__subtitle">
+            <span></span>
+          </div>
+        </div>
+        <!---->
+        <!--settings-column-->
+        <div class="settings-column">
+          <div class="settings-column__title">
+            <i class="fa-regular fa-comment"></i>
+            <span>Chats</span>
+          </div>
+          <div class="settings-column__subtitle"></div>
+        </div>
+        <!---->
+        <!--settings-column-->
+        <div class="settings-column">
+          <div class="settings-column__title">
+            <i class="fa-regular fa-sun"></i>
+            <span>Display</span>
+            <span class="bage text">N</span>
+          </div>
+          <div class="settings-column__subtitle"></div>
+        </div>
+        <!---->
+        <!--settings-column-->
+        <div class="settings-column">
+          <div class="settings-column__title">
+            <i class="fa-solid fa-brush"></i>
+            <span>Themes</span>
+            <span class="bage text">N</span>
+          </div>
+          <div class="settings-column__subtitle">Default theme</div>
+        </div>
+        <!---->
+      </div>
+    </main>
+
+    <nav class="nav-icon">
+      <ul class="nav-ul">
+        <li class="nav-ul__icon_row">
+          <a href="friends.html">
+            <i class="fa-regular fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-ul__icon_row">
+          <a href="chats.html">
+            <span class="bage number"> 1 </span>
+            <i class="fa-solid fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-ul__icon_row">
+          <a href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-ul__icon_row">
+          <a href="more.html">
+            <span class="bage point"> </span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/7a357c0d40.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>
