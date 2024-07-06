@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="chat-body">
+    <div class="status-bar">
+      <span class="status-bar__column">
+        No Service
+        <i class="fa-solid fa-wifi fa-lg"></i>
+      </span>
+      <span id="clock" class="status-bar__column"></span>
+      <span class="status-bar__column"
+        >100%
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+      </span>
+    </div>
+
+    <header>
+      <div class="settings-bar-header">
+        <span class="settings-bar-header__column"
+          ><i class="fa-solid fa-chevron-left"></i
+        ></span>
+        <span class="settings-bar-header__column">Settings</span>
+        <span class="settings-bar-header__column"
+          ><i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bars"></i
+        ></span>
+      </div>
+    </header>
+
+    <main class="settings-main">
+      <div class="chat">
+        <div class="chat-time">
+          <span class="chat-time__numbe"> Tuesday, June 30, 2020 </span>
+        </div>
+      </div>
+
+      <div class="chat-friends">
+        <img class="chat-friends__img" src="screenshot/kakao-07.jpg" />
+        <div>
+          <span class="chat-friends__name"> Nico </span>
+          <div class="chat-friends__name_text">
+            <span>Hi!</span>
+            <span>21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-friends chat-user">
+        <div>
+          <div class="chat-friends__name_text chat-user__name_text">
+            <span>What's up?</span>
+            <span>21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="chat-massge">
+      <div class="chat-massge__icon">
+        <i class="fa-regular fa-square-plus"></i>
+      </div>
+      <div class="chat-massge__bubble">
+        <span> Hi! </span>
+        <div class="chat-massge__bubble_icons">
+          <i class="fa-regular fa-face-smile"></i>
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7a357c0d40.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>
